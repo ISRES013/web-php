@@ -1,0 +1,48 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: url('./img/7361115.jpg');
+}
+h3{
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+   line-height: 1.2;
+}
+
+.container{
+   margin: 0 auto;
+}
+
+nav{
+   background-color: rgb(255, 0, 0);
+   color: rgb(255, 255, 255);
+   height: 80px;
+}
+
+.nav-con{
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   align-items: center;
+}
+
+ul.menu{
+   display: flex;
+   list-style: none;
+}
+
+ul.menu li{
+  margin: 0 1rem;
+}
+
+ul.menu li a{
+      display: block;
+      padding: 15px 20px; 
+      text-decoration: none; 
+      color: white; 
+      font-size: 16px;
+}

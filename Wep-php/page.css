@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfb8b8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #575757;
+    color: #ffcc00;
+}
+
+nav a span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover span {
+    color: #ffcc00;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.promo-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.promo-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.promo-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.promo-card h2 {
+    margin: 20px 0 10px;
+    font-size: 1.8em;
+}
+
+.promo-card p {
+    font-size: 1em;
+    color: #777;
+    margin: 0 20px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e55d4e;
+}
+
+footer{
+    background: #6e1e16;
+}
+
+footer h4{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
